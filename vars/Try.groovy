@@ -1,4 +1,4 @@
-def call(string createPipeline) {
+def call(int createPipeline) {
     pipeline {
 	    agent any
 	    environment {
