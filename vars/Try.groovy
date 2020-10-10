@@ -11,7 +11,7 @@ def call(string createPipeline) {
                   //echo username
 	    }
         }
-  	 stage('find_changed') {
+  	  stage('find_changed') {
 	      /*agent {
 	        docker {
 	           image 'centos:latest'
@@ -22,6 +22,5 @@ def call(string createPipeline) {
 		sh 'ls -la'
 	      }
            }
-}  
-
-	
+	  }
+    }
