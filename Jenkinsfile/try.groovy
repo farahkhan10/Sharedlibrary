@@ -1,4 +1,4 @@
-@Library('farahkhan10-library@master') _
+@Library('Jenkins-library@master') _
 
 pipeline {
     agent any
